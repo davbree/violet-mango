@@ -57,6 +57,7 @@ export default {
     GridSection,
     Header,
     HeroSection,
+    HeroSection2,
     Layout,
     Icon,
     ImageSection,
