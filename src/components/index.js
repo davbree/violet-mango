@@ -10,6 +10,7 @@ import FormSection from './FormSection';
 import GridSection from './GridSection';
 import Header from './Header';
 import HeroSection from './HeroSection';
+import HeroSection2 from './HeroSection2';
 import Layout from './Layout';
 import Icon from './Icon';
 import ImageSection from './ImageSection';
