@@ -8,7 +8,7 @@ export default class HeroSection extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section id={_.get(section, 'section_id', null)} className="hero">
+            <section id={_.get(section, 'section_id', null)} className="hero">HERO2
               <div className="container container--lg">
                 {_.get(section, 'title', null) && (
                 <h1 className="hero__title">{_.get(section, 'title', null)}</h1>
