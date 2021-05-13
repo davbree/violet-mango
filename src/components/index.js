@@ -33,6 +33,7 @@ export {
     GridSection,
     Header,
     HeroSection,
+    HeroSection2,
     Layout,
     Icon,
     ImageSection,
