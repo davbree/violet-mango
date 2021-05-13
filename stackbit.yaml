@@ -388,6 +388,23 @@ models:
           type: model
           models:
             - action
+  hero_section2:
+    type: object
+    label: Hero Section
+    extends:
+      - section
+    fields:
+      - type: markdown
+        name: content
+        label: Content
+        description: The text content of the section
+      - type: list
+        name: actions
+        label: Action buttons
+        items:
+          type: model
+          models:
+            - action
   content_section:
     type: object
     label: Content Section
